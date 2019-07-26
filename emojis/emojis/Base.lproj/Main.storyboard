@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="emojis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RwZ-oL-027">
+                                <rect key="frame" x="153" y="232" width="89" height="90"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <state key="normal" title="🙁"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYg-2l-wQn">
+                                <rect key="frame" x="153" y="239" width="68" height="605"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="69"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.40650538267064373" blue="0.49681400210567872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.6669566570018679" green="1" blue="0.95671324913554656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RwZ-oL-027" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-11" id="QzQ-md-mF5"/>
+                            <constraint firstItem="TYg-2l-wQn" firstAttribute="top" secondItem="RwZ-oL-027" secondAttribute="bottom" constant="120" id="Tip-m1-a9G"/>
+                            <constraint firstItem="TYg-2l-wQn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="X5D-eS-PTU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TYg-2l-wQn" secondAttribute="bottom" constant="200" id="m3b-yL-AQP"/>
+                            <constraint firstItem="TYg-2l-wQn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="whN-Ec-Z0B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TYg-2l-wQn" secondAttribute="bottom" constant="120" id="xdy-AJ-60A"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57.971014492753625" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+</document>
